@@ -38,6 +38,20 @@ h1 {
     align-items: center;
 }
 
+button {
+    padding: 10px 20px;
+    margin: 0 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1);
+}
+
+button:hover {
+    transform: translateY(6px) scale(1.2);
+    cursor: pointer;
+}
 
 .relogio {
     font-size: 100px;
